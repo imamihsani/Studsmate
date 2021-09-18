@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
+
+    <title>MBM | STUDSMATE</title>
+  </head>
+  <body>
+
+    <!--NAVBAR-->
+    <header>
+      <div class="container">
+    <center><nav class="navbar fixed-top navbar-expand-lg navbar-light bg-warning">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Studs-Mate</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="profil.html">Profil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="kontak.html">Kontak</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-info" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+  </nav>
+</div></center>
+</header><br>
+  <!--NAVBAR-->
+
+  <!--JUMBOTRON--><br>
+  
+
+  <section class="jumbotron-bg">
+    <div class="jumbotron warna-bg text-white">
+      <div class="container"><br>
+      <h1 class="display-4">Selamat Datang!,</h1>
+      <img src="studsmate.png" height="60" class="img justify-content-center">
+      <p class="lead">Studs-Mate (Students Of Mathematic Soulmate) adalah media pembelajaran dalam bidang matematika secara online untuk siswa-siswi tingkat SMP dan SMA/SMK sederajat.</p>
+      <hr class="my-4">
+      <p>Anda dapat belajar berbagai materi matematika di sini.</p>
+      
+      <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+          Daftar
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle"><font color="black"><b>Daftar Studs-Mate</b></font></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                
+                <form>
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Nama Awal" required>
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Nama Akhir" required>
+                    </div>
+                  </div>
+                </form>
+                <br>
+                <form>
+                  <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label"><font color="black">Email :</font></label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="inputEmail3" placeholder="Email" required>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="form-group row">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label"><font color="black">Kata Sandi :</font></label>
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="inputPassword3" placeholder="Kata Sandi" required>
+                    </div>
+                    <br><br>
+
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Nomor Telepon" required>
+                    </div>
+
+                    <br><br>
+
+                      <label class="sr-only" for="inlineFormInputGroup"></label>
+                      <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username" required>
+                      </div>
+                    </div>
+
+                    <br><br>
+                  </div>
+                  <fieldset class="form-group">
+                    <div class="row">
+                      <legend class="col-form-label col-sm-2 pt-0"><font color="black">Gender:</font></legend>
+                      <div class="col-sm-10">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                          <label class="form-check-label" for="gridRadios1">
+                            <font color="black">Laki-laki</font>
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                          <label class="form-check-label" for="gridRadios2">
+                            <font color="black">Perempuan</font>
+                          </label>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </fieldset>
+                  <br>
+                  <select class="custom-select custom-select-sm">
+                    <option selected>Daftar Sebagai : </option>
+                    <option value="1">Pelajar</option>
+                    <option value="2">Pengajar</option>
+                  </select>
+
+                </form>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+                <button type="button" class="btn btn-primary">Daftar</button>
+              </div>
+            </div>
+          </div>
+        </div> 
+          <!--Login-->
+        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter2">
+          LogIn
+        </button><br>
+        <!--Modal-->
+        <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle"><font color="black"><b>LogIn Studs-Mate</b></font></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                
+                <form>
+                  <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label"><font color="black">Username:</font></label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="inputEmail3" placeholder="Email" required>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="form-group row">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label"><font color="black">Kata Sandi :</font></label>
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="inputPassword3" placeholder="Kata Sandi" required>
+                    </div>
+                    <br><br>
+
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Nomor Telepon" required>
+                    </div>
+
+                    <br><br>
+
+                      
+
+                  </div>
+                  <br>
+                  <select class="custom-select custom-select-sm">
+                    <option selected>Masuk Sebagai: </option>
+                    <option value="1">Pelajar</option>
+                    <option value="2">Pengajar</option>
+                  </select>
+
+                  <div class="custom-control custom-checkbox my-1 mr-sm-2">
+                    <input type="checkbox" class="custom-control-input" id="customControlInline">
+                    <label class="custom-control-label" for="customControlInline"><font color="black">Simpan otomatis</font></label>
+                  </div>
+
+                </form>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+                <button type="button" class="btn btn-success">Masuk</button>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+
+
+
+      <br>
+      </div>
+
+    </div>
+  </section>
+
+  <br>
+  <!--JUMBOTRON-->
+
+  <center><div class="container justify-content-center"><div class="alert alert-dark alert-dismissible fade show" role="alert">
+      <center><strong><h2><b>TINGKAT SMP/Sederajat</b></h2></strong></center>
+    </div></div></center>
+
+    <!--HALAMAN-->
+  <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    
+    <li class="page-item"><a class="page-link" href="index.html"><b>Materi SMK/SMA/Sederajat</b></a></li>
+    <li class="page-item"><a class="page-link" href="halaman2.html"><b>Materi SMP/Sederajat</b></a></li>
+    
+  </ul>
+</nav>
+  <!--HALAMAN-->
+
+  <!--MATERI-->
+   <center> <div class="container">
+      <div class="row">
+        <div class="col-md-3 mb-2"><br>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="rnf.jpg" alt="Card image cap" height="200">
+            <div class="card-body">
+              <center><h5 class="card-title text-warning">Relasi & Fungsi</h5></center>
+              <p class="card-text">Berbagai materi Relasi untuk SMP dan SMA/SMK sederajat.</p>
+              <center><a href="#" class="btn btn-warning">Pelajari</a></center>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-2"><br>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="pal.jpg" alt="Card image cap" height="200">
+            <div class="card-body">
+              <center><h5 class="card-title text-warning">Pangkat, Akar & Logaritma</h5></center>
+              <p class="card-text">Berbagai materi Pangkat untuk SMP dan SMA/SMK sederajat.</p>
+              <center><a href="#" class="btn btn-warning">Pelajari</a></center>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-2"><br>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="sttk.jpg" alt="Card image cap" height="200">
+            <div class="card-body">
+              <center><h5 class="card-title text-warning">Statistik</h5></center>
+              <p class="card-text">Berbagai materi Statistik untuk SMP dan SMA/SMK sederajat.</p>
+              <center><a href="#" class="btn btn-warning">Pelajari</a></center>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-2"><br>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="bgdt.jpg" alt="Card image cap" height="200">
+            <div class="card-body">
+              <center><h5 class="card-title text-warning">Bangun Datar</h5></center>
+              <p class="card-text">Berbagai materi datar untuk SMP dan SMA/SMK sederajat.</p>
+              <center><a href="pelajari2.html" class="btn btn-warning">Pelajari</a></center>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-2"><br>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="bgrg.jpg" alt="Card image cap" height="200">
+            <div class="card-body">
+              <center><h5 class="card-title text-warning">Bangun Ruang</h5></center>
+              <p class="card-text">Berbagai materi ruang untuk SMP dan SMA/SMK sederajat.</p>
+              <center><a href="#" class="btn btn-warning">Pelajari</a></center>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-2"><br>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="tgmt.jpg" alt="Card image cap" height="200">
+            <div class="card-body">
+              <center><h5 class="card-title text-warning">Trigonometri</h5></center>
+              <p class="card-text">Berbagai Trigonometri PGL untuk SMP dan SMA/SMK sederajat.</p>
+              <center><a href="#" class="btn btn-warning">Pelajari</a></center>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-2"><br>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="trptg.jpg" alt="Card image cap" height="200">
+            <div class="card-body">
+              <center><h5 class="card-title text-warning">Teorema Phytagoras</h5></center>
+              <p class="card-text">Berbagai materi Phytagoras untuk SMP dan SMA/SMK sederajat.</p>
+              <center><a href="#" class="btn btn-warning">Pelajari</a></center>
+            </div>
+          </div>
+        </div>
+
+         <div class="col-md-3 mb-2"><br>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="brddr.jpg" alt="Card image cap" height="200">
+            <div class="card-body">
+              <center><h5 class="card-title text-warning">Baris & Deret</h5></center>
+              <p class="card-text">Berbagai materi baris untuk SMP dan SMA/SMK sederajat.</p>
+              <center><a href="#" class="btn btn-warning">Pelajari</a></center>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div></center>
+  <!--MATERI-->
+
+  <!--HALAMAN-->
+  <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    
+    <li class="page-item"><a class="page-link" href="index.html"><--Materi SMK/SMA/Sederajat</a></li>
+    <li class="page-item"><a class="page-link" href="halaman2.html">Materi SMP/Sederajat--></a></li>
+    
+  </ul>
+</nav>
+  <!--HALAMAN-->
+
+  <!--FOOTER-->
+   <center><footer class="bg-warning text-white text-center text-lg-start">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">BERIKAN KAMI FEEDBACK</h5>
+
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Masukan anda</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Stud-mate bagus dan membantu saya, terimakasih! :)"></textarea>
+          </div><br>
+          <div class="button">
+           <button type="submit" class="btn btn-light mb-2">Kirim</button>
+         </div>
+        </form>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-0">SOCIAL MEDIA</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" class="text-white">Instagram</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Facebook</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Twitter</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">WhatsApp</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © STUDS-MATE 2020 Copyright:
+    <a class="text-white" href="https://www.instagram.com/imam.ihsan_/">IMXX 2020</a>
+  </div>
+  <!-- Copyright -->
+</footer></center>
+
+  <!--FOOTER-->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+   <script type="text/javascript" src="js/jquery-3.4.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script type="text/javascript" src="js/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script type="text/javascript" src="js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script></script>
+   <script src="assets/js/jquery.dropotron.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
